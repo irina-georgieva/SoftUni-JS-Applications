@@ -46,6 +46,7 @@ async function onSubmit(event){
         };
         sessionStorage.setItem('userData', JSON.stringify(userData));
 
+        form.reset();
         updateUserNav();
         showHomePage();
 
